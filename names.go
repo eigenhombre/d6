@@ -111,13 +111,18 @@ func nGramName(r *rand.Rand) string {
 	return name
 }
 
+var c = cases.Title(language.English)
+
+func capitalize(s string) string {
+	return c.String(s)
+}
+
 func fullNameAsList(r *rand.Rand) []string {
 	ns := []int{1, 2, 2, 2, 2, 2, 3, 3, 4, 5, 6}
 	numNames := ns[r.Intn(len(ns))]
 	names := []string{}
-	c := cases.Title(language.English)
 	for i := 0; i < numNames; i++ {
-		names = append(names, c.String(singleName(r)))
+		names = append(names, capitalize(singleName(r)))
 	}
 	return names
 }
