@@ -1,5 +1,5 @@
 
-<img src="/d6.jpg" width="800">
+<img src="/d6.jpg" width="500">
 
 ![build](https://github.com/eigenhombre/d6/actions/workflows/build.yml/badge.svg)
 
