@@ -20,54 +20,57 @@ Generators for open variants of the original '70s D6 SF RPG.
     	worlds
     
     $ d6 chars
-    B46734 Tta Latonia Ariaharldan
-    677C75 Que Shawn
-    448456 Pam Joann Ina
-    82B875 Alisona Tamesha
-    887856 Kathaleen Armonda
-    997889 Lovetta Nora
-    378B87 Corrin Leyatheber
-    876575 Bri Tephttarenera
-    374246 Diana Marcel
-    6488B7 Orpha Matt Carol
+    482B48 Ha Dora
+    99A97B Torrie Tonisha Cath Lauearl
+    596895 Merliss Tesha Emerita
+    9589B4 Ricardo Nitacherorri Farah
+    C68773 Cecille Teresia Eilene
+    C74655 Risseen Nona
+    47C585 Cargelithanit Chet Jenifer Masako Bea
+    949852 Kiara Merilyn
+    67A847 Mi Yolonda Portia
+    646897 Lavonda Yuri Billie Marvel
     
     $ d6 worlds
-                 Dorinda    0003 X336266-7 Lo
-                 Rosaria    0008 A9A7A79-B Fl Hi
-                  Shayna    0100 C7C2741-8 Fl
-                   Genna    0103 A8A39CD-C Fl Hi Ht
-                   Agnus    0104 ACDAADC-E Fl Hi Ht Wa
-                 Therese    0105 C88AA89-7 Hi Wa
-                   Jacob    0107 A846AC9-9 Hi In
-               Katherina    0109 E52778A-7 Ic
-                   Carma    0209 C563520-5 Lt Ni
-                    Sana    0300 D410357-8 Lo
-              Essistijan    0303 B695821-6
-                  Gaston    0304 A6A1897-8 Fl
-                     Ita    0305 X200000-0 Ba Va
-                Cristine    0306 D732375-7 Lo Po
-                 Sherell    0307 A884ABD-B Hi
-                    Liza    0308 DBD75CF-8 Fl Ni
-                  Roscoe    0309 X200000-0 Ba Va
-                 Estella    0403 E672699-5 Lt Ni
-                   Greta    0405 X7A2466-7 Fl Ni
-                  Carman    0407 X545264-5 Lo Lt
-                    Essi    0409 C9E66BC-9 Fl Ni
-                   Azzie    0501 A96AAAB-F Hi Ht Wa
-                 Marjory    0502 X400144-7 Lo Va
-                    Lain    0503 E524144-7 Ic Lo
-             Lettrancsha    0504 CABA4AA-9 Fl Ni Wa
-                  Myesha    0506 E689458-4 Ga Lt Ni
-                 Margery    0507 D55699A-2 Hi Lt
-                Ethelene    0508 C765A44-A Hi
-                  Mickie    0604 D626566-7 Ic Ni
-           Andadanamaell    0606 B974588-B Ag Ni
-                Jonathan    0608 D6A1497-7 Fl Ni
-                  Vanita    0700 EBB74BC-7 Fl Ni
-                     Fre    0701 E498530-5 Ag Lt Ni
-                   Ilene    0703 X7A327A-7 Fl Lo
-             Ngegelienia    0705 A55189D-A Po
-                   Keiko    0707 CBD7AB9-9 Fl Hi
+              Fredcelana    0000 BBB4AEE-B   Fl Hi
+                 Alisran    0001 A7588A9-8 N Ga
+                 Queenie    0003 BCB59FF-7 S Fl Hi
+                   Clora    0006 A898767-7   Ag
+                 Cassidy    0007 D79A988-8   Hi In Wa
+                 Pandora    0009 A573848-B N
+                  Duncan    0100 A664A79-B N Hi
+                   Cathi    0103 C966A8A-7 S Hi
+                    Leen    0108 B8B5973-9 A Fl Hi
+                   Ouida    0201 E643555-5   Lt Ni Po
+                   Micki    0202 BAB59AA-C N Fl Hi Ht
+                  Manual    0205 B414958-A N Hi Ic In
+                 Liberty    0303 C6A2665-7   Fl Ni
+                  Arleen    0305 C422577-B   Ic Ni Po
+                 Yolonda    0307 B969A95-8   Hi
+          Llicrislashber    0308 D563946-7 S Hi
+                  Mignon    0403 B538688-B   Ni
+                  Elinor    0406 BA6AAFF-E   Hi Ht Wa
+                  Lillia    0408 C644721-7 S Ag
+                    Rema    0501 C87AA55-D   Hi Ht In Wa
+                 Claudio    0502 BAB8A86-C   Fl Hi Ht
+                Rosatine    0504 X796499-5   Lt Ni
+                   Tisha    0505 A764A78-C   Hi Ht
+                  Juliet    0507 A859A9B-B N Hi
+                   Essie    0508 BB8AABB-9 S Hi Wa
+                 Mozelle    0600 E8D8176-7   Fl Lo
+                    Anie    0603 A757A79-D   Hi Ht
+                Reynaldo    0605 X340330-5   De Lo Lt Po
+                 Lorrine    0606 X679131-5   Lo Lt
+                    Mary    0608 D444451-5 S Lt Ni
+                 Talitha    0700 A8C6965-A S Fl Hi
+                  Shanae    0701 C86AABF-9   Hi Wa
+                  Martha    0702 D8B1465-7   Fl Ni
+                     Vin    0704 C8B4855-7 P Fl
+                  Vonnie    0705 E589465-8 P Ga Ni
+                    Enne    0706 X443226-5   Lo Lt Po
+                   Ashli    0707 D667853-2 S Ga Lt Ri
+                 Cristen    0708 C898675-5 S Ag Lt Ni
+                 Alfredo    0709 X475000-0   Ba
     
     
     

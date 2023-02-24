@@ -19,6 +19,7 @@ type planet struct {
 	tl         int
 	starport   rune
 	tradeCodes []string
+	baseCode   rune
 }
 
 func newPlanet(r *rand.Rand, sectorX, sectorY int) planet {
@@ -162,6 +163,7 @@ func newPlanet(r *rand.Rand, sectorX, sectorY int) planet {
 		law,
 		tl,
 	)
+	baseCode := calculateBaseCode(r, starport)
 	return planet{
 		name:       capitalize(singleName(r)),
 		sectorX:    sectorX,
@@ -175,7 +177,48 @@ func newPlanet(r *rand.Rand, sectorX, sectorY int) planet {
 		tl:         tl,
 		starport:   starport,
 		tradeCodes: tradeCodes,
+		baseCode:   baseCode,
 	}
+}
+
+func calculateBaseCode(r *rand.Rand, starport rune) rune {
+	var hasNaval, hasScout, hasPirate bool
+
+	if (starport == 'A' || starport == 'B') && dn(r, 2) >= 8 {
+		hasNaval = true
+	}
+	if starport != 'X' && starport != 'E' {
+		dm := 0
+		if starport == 'A' {
+			dm -= 3
+		} else if starport == 'B' {
+			dm -= 2
+		} else if starport == 'C' {
+			dm -= 1
+		}
+		if dn(r, 2)+dm >= 7 {
+			hasScout = true
+		}
+	}
+	if starport != 'A' && !hasNaval && dn(r, 2) == 12 {
+		hasPirate = true
+	}
+	if hasNaval && hasScout {
+		return 'A'
+	}
+	if hasNaval {
+		return 'N'
+	}
+	if hasScout && hasPirate {
+		return 'G'
+	}
+	if hasScout {
+		return 'S'
+	}
+	if hasPirate {
+		return 'P'
+	}
+	return ' '
 }
 
 func calculateTradeCodes(size, atmo, hydro, pop, gov, law, tl int) []string {
@@ -238,7 +281,7 @@ func calculateTradeCodes(size, atmo, hydro, pop, gov, law, tl int) []string {
 }
 
 func (p planet) String() string {
-	return fmt.Sprintf("%20s    %02d%02d %c%X%X%X%X%X%X-%X %s",
+	return fmt.Sprintf("%20s    %02d%02d %c%X%X%X%X%X%X-%X %c %s",
 		p.name,
 		p.sectorX,
 		p.sectorY,
@@ -250,6 +293,7 @@ func (p planet) String() string {
 		p.gov,
 		p.law,
 		p.tl,
+		p.baseCode,
 		strings.Join(p.tradeCodes, " "),
 	)
 }
