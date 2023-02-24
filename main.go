@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"math/rand"
 	"os"
-	"strings"
 )
 
 func usage() {
@@ -23,14 +22,8 @@ func main() {
 		usage()
 	}
 	verbMap := map[string]func(rand *rand.Rand) string{
-		"chars": chars,
-		"worlds": func(r *rand.Rand) string {
-			ret := []string{}
-			for i := 0; i < 10; i++ {
-				ret = append(ret, newPlanet(r).String())
-			}
-			return strings.Join(ret, "\n")
-		},
+		"chars":  chars,
+		"worlds": generateSubsector,
 	}
 	for v := range verbs {
 		_, ok := verbMap[verbs[v]]

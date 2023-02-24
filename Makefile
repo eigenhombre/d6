@@ -1,4 +1,4 @@
-.PHONY: all install
+.PHONY: all install doc
 
 PROG=d6
 
@@ -9,3 +9,6 @@ ${PROG}: *.go go.mod
 
 install:
 	go install
+
+doc:
+	python updatereadme.py

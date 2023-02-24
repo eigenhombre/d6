@@ -3,10 +3,13 @@ package main
 import (
 	"fmt"
 	"math/rand"
+	"strings"
 )
 
 type planet struct {
 	name     string
+	sectorX  int
+	sectorY  int
 	size     int
 	atmo     int
 	hydro    int
@@ -17,7 +20,7 @@ type planet struct {
 	starport rune
 }
 
-func newPlanet(r *rand.Rand) planet {
+func newPlanet(r *rand.Rand, sectorX, sectorY int) planet {
 	size := dn(r, 2)
 	var atmo int
 	if size == 0 {
@@ -140,6 +143,8 @@ func newPlanet(r *rand.Rand) planet {
 	}
 	return planet{
 		name:     capitalize(singleName(r)),
+		sectorX:  sectorX,
+		sectorY:  sectorY,
 		size:     size,
 		atmo:     atmo,
 		hydro:    hydro,
@@ -152,8 +157,10 @@ func newPlanet(r *rand.Rand) planet {
 }
 
 func (p planet) String() string {
-	return fmt.Sprintf("%20s    0000 %c%X%X%X%X%X%X-%X",
+	return fmt.Sprintf("%20s    %02d%02d %c%X%X%X%X%X%X-%X",
 		p.name,
+		p.sectorX,
+		p.sectorY,
 		p.starport,
 		p.size,
 		p.atmo,
@@ -163,4 +170,16 @@ func (p planet) String() string {
 		p.law,
 		p.tl,
 	)
+}
+
+func generateSubsector(r *rand.Rand) string {
+	ret := []string{}
+	for sectorX := 0; sectorX < 8; sectorX++ {
+		for sectorY := 0; sectorY < 10; sectorY++ {
+			if r.Intn(2) == 0 {
+				ret = append(ret, newPlanet(r, sectorX, sectorY).String())
+			}
+		}
+	}
+	return strings.Join(ret, "\n")
 }
