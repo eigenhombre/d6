@@ -1,4 +1,4 @@
-.PHONY: all install doc
+.PHONY: all install doc docker
 
 PROG=d6
 
@@ -12,3 +12,6 @@ install:
 
 doc:
 	python updatereadme.py
+
+docker:
+	docker build -t ${PROG} .
