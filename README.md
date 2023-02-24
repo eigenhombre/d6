@@ -20,51 +20,54 @@ Generators for open variants of the original '70s D6 SF RPG.
     	worlds
     
     $ d6 chars
-    46479A Elerlin Hris
-    9B5995 Pia Enettie
-    7B3564 Olive Glennie
-    988629 Shenna Alina
-    736568 Barton Aritcar Miguel
-    578488 Wilhemina Karolyn Yung Patrice Indaonn Seema
-    A56998 Tawanda Leslee Alexander
-    867C8B Vasiliki Bristassadon Arla
-    6A7B45 Hant Brandon Ron Donstin Tiera Sherry
-    697648 Shela Tiesha
+    B46734 Tta Latonia Ariaharldan
+    677C75 Que Shawn
+    448456 Pam Joann Ina
+    82B875 Alisona Tamesha
+    887856 Kathaleen Armonda
+    997889 Lovetta Nora
+    378B87 Corrin Leyatheber
+    876575 Bri Tephttarenera
+    374246 Diana Marcel
+    6488B7 Orpha Matt Carol
     
     $ d6 worlds
-                 Sonetta    0002 X210004-7
-                 Rashida    0006 D725754-8
-                   Shyla    0009 C88AAA7-9
-                 Ambrose    0100 E423721-7
-                    Cleo    0102 B783AAD-7
-                   Macie    0104 X9A14DC-7
-                    Rrie    0105 A888A69-C
-                   Tiana    0107 D628655-7
-                   Angla    0108 E314303-7
-                     Han    0202 CBC78DA-7
-                  Tiedel    0204 D547257-5
-                    Iola    0205 X8A436A-7
-                    Sari    0207 B511767-9
-                 Delicia    0301 CBAA9DE-8
-                     Ger    0304 E9A5886-7
-                    Ille    0305 CA6AA9E-C
-                  Eugene    0306 D613576-7
-                Ellieste    0307 C9849A8-9
-                    Wava    0309 C360513-9
-                     Lee    0401 B77AA75-9
-                   Keira    0405 D778964-5
-                    Dora    0409 BA99678-6
-                  Cristi    0500 B7A4A78-A
-                    Loma    0503 D6B43B8-7
-                    Ange    0504 CAA5577-7
-                Theressa    0506 ACCAACB-F
-                Lizzette    0507 E438611-8
-          Garoniarlantin    0602 E375042-5
-                   Benny    0603 D564811-5
-                 Kerstin    0606 D410167-A
-                 Setsuko    0701 E446099-7
-                 Oriarri    0702 C98A7AF-5
-                  Darell    0709 C463A65-8
+                 Dorinda    0003 X336266-7 Lo
+                 Rosaria    0008 A9A7A79-B Fl Hi
+                  Shayna    0100 C7C2741-8 Fl
+                   Genna    0103 A8A39CD-C Fl Hi Ht
+                   Agnus    0104 ACDAADC-E Fl Hi Ht Wa
+                 Therese    0105 C88AA89-7 Hi Wa
+                   Jacob    0107 A846AC9-9 Hi In
+               Katherina    0109 E52778A-7 Ic
+                   Carma    0209 C563520-5 Lt Ni
+                    Sana    0300 D410357-8 Lo
+              Essistijan    0303 B695821-6
+                  Gaston    0304 A6A1897-8 Fl
+                     Ita    0305 X200000-0 Ba Va
+                Cristine    0306 D732375-7 Lo Po
+                 Sherell    0307 A884ABD-B Hi
+                    Liza    0308 DBD75CF-8 Fl Ni
+                  Roscoe    0309 X200000-0 Ba Va
+                 Estella    0403 E672699-5 Lt Ni
+                   Greta    0405 X7A2466-7 Fl Ni
+                  Carman    0407 X545264-5 Lo Lt
+                    Essi    0409 C9E66BC-9 Fl Ni
+                   Azzie    0501 A96AAAB-F Hi Ht Wa
+                 Marjory    0502 X400144-7 Lo Va
+                    Lain    0503 E524144-7 Ic Lo
+             Lettrancsha    0504 CABA4AA-9 Fl Ni Wa
+                  Myesha    0506 E689458-4 Ga Lt Ni
+                 Margery    0507 D55699A-2 Hi Lt
+                Ethelene    0508 C765A44-A Hi
+                  Mickie    0604 D626566-7 Ic Ni
+           Andadanamaell    0606 B974588-B Ag Ni
+                Jonathan    0608 D6A1497-7 Fl Ni
+                  Vanita    0700 EBB74BC-7 Fl Ni
+                     Fre    0701 E498530-5 Ag Lt Ni
+                   Ilene    0703 X7A327A-7 Fl Lo
+             Ngegelienia    0705 A55189D-A Po
+                   Keiko    0707 CBD7AB9-9 Fl Hi
     
     
     
