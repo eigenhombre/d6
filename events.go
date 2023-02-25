@@ -27,15 +27,41 @@ func (e majorityEvent) Age() int {
 	return 18
 }
 
-type attemptToJoinServiceEvent struct {
+type joinedServiceEvent struct {
 	service career
 	age     int
 }
 
-func (e attemptToJoinServiceEvent) Name() string {
-	return fmt.Sprintf("attempted to begin career as a(n) %s", e.service)
+func (e joinedServiceEvent) Name() string {
+	return fmt.Sprintf("began career: %s", e.service)
 }
 
-func (e attemptToJoinServiceEvent) Age() int {
+func (e joinedServiceEvent) Age() int {
+	return e.age
+}
+
+type failedToJoinServiceEvent struct {
+	service career
+	age     int
+}
+
+func (e failedToJoinServiceEvent) Name() string {
+	return fmt.Sprintf("rejected from: %s", e.service)
+}
+
+func (e failedToJoinServiceEvent) Age() int {
+	return e.age
+}
+
+type draftedEvent struct {
+	service career
+	age     int
+}
+
+func (e draftedEvent) Name() string {
+	return fmt.Sprintf("drafted into: %s", e.service)
+}
+
+func (e draftedEvent) Age() int {
 	return e.age
 }

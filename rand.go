@@ -6,9 +6,8 @@ import (
 )
 
 // FIXME: Use generics somehow?
-func randCareer(r *rand.Rand) career {
-	ps := professions()
-	return ps[r.Intn(len(ps))]
+func randCareer(r *rand.Rand, careers []career) career {
+	return careers[r.Intn(len(careers))]
 }
 
 func randNthString(r *rand.Rand, s []string) string {

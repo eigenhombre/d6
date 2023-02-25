@@ -21,13 +21,36 @@ type char struct {
 	events    []lifeEvent
 }
 
+var characteristicMods map[int]int = map[int]int{
+	0:  -2,
+	1:  -2,
+	2:  -1,
+	3:  -1,
+	4:  -1,
+	5:  -1,
+	6:  0,
+	7:  0,
+	8:  0,
+	9:  1,
+	10: 1,
+	11: 1,
+	12: 2,
+	13: 2,
+	14: 2,
+	15: 3,
+	16: 3,
+	17: 3,
+	18: 4,
+	19: 4,
+	20: 4,
+}
+
 type skill struct {
 	name  string
 	level int
 }
 
 func newChar(r *rand.Rand) char {
-	firstService := randCareer(r)
 	return char{
 		name:      fullName(r),
 		age:       18,
@@ -37,18 +60,44 @@ func newChar(r *rand.Rand) char {
 		in:        dn(r, 2),
 		ed:        dn(r, 2),
 		ss:        dn(r, 2),
-		careers:   []career{firstService},
+		careers:   []career{},
 		homeworld: newPlanet(r, nil, nil),
 		events: []lifeEvent{
 			birthEvent{},
 			majorityEvent{},
-			attemptToJoinServiceEvent{
-				service: firstService,
-				age:     18,
-			},
 		},
 		skills: []skill{},
 	}
+}
+
+func charCareer(r *rand.Rand, c *char) {
+	service := randCareer(r, allCareers())
+	c.careers = append(c.careers, service)
+	if !enlist(r, service, *c) {
+		c.events = append(c.events, failedToJoinServiceEvent{
+			service: service,
+			age:     c.age,
+		})
+		if d(r) < 4 {
+			c.events = append(c.events, draftedEvent{
+				service: drifter,
+				age:     c.age,
+			})
+			c.careers = append(c.careers, drifter)
+		} else {
+			service := randCareer(r, draftCareers)
+			c.events = append(c.events, draftedEvent{
+				service: service,
+				age:     c.age,
+			})
+			c.careers = append(c.careers, service)
+		}
+		return
+	}
+	c.events = append(c.events, joinedServiceEvent{
+		service: service,
+		age:     c.age,
+	})
 }
 
 func skillsList(skills []skill) string {
@@ -67,15 +116,17 @@ func (c char) String() string {
 		c.age, c.careers[0].name,
 		skillsList(c.skills)))
 	for _, e := range c.events {
-		ret = append(ret, fmt.Sprintf("Age %d: %s", e.Age(), e.Name()))
+		ret = append(ret, fmt.Sprintf("%3d - %s", e.Age(), e.Name()))
 	}
-	return strings.Join(ret, "\n")
+	return strings.Join(ret, "\n") + "\n"
 }
 
 func chars(r *rand.Rand) string {
 	ret := []string{}
 	for i := 0; i < 10; i++ {
-		ret = append(ret, newChar(r).String())
+		ch := newChar(r)
+		charCareer(r, &ch)
+		ret = append(ret, ch.String())
 	}
 	return strings.Join(ret, "\n")
 }
