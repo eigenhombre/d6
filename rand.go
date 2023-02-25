@@ -5,6 +5,12 @@ import (
 	"time"
 )
 
+// FIXME: Use generics somehow?
+func randCareer(r *rand.Rand) career {
+	ps := professions()
+	return ps[r.Intn(len(ps))]
+}
+
 func randNthString(r *rand.Rand, s []string) string {
 	return s[r.Intn(len(s))]
 }

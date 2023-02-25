@@ -28,12 +28,12 @@ func (e majorityEvent) Age() int {
 }
 
 type attemptToJoinServiceEvent struct {
-	service string
+	service career
 	age     int
 }
 
 func (e attemptToJoinServiceEvent) Name() string {
-	return fmt.Sprintf("attempt to join %s", e.service)
+	return fmt.Sprintf("attempted to begin career as a(n) %s", e.service)
 }
 
 func (e attemptToJoinServiceEvent) Age() int {

@@ -15,7 +15,7 @@ type char struct {
 	in        int
 	ed        int
 	ss        int
-	career    string
+	careers   []career
 	skills    []skill
 	homeworld planet
 	events    []lifeEvent
@@ -26,37 +26,8 @@ type skill struct {
 	level int
 }
 
-func professions() []string {
-	return []string{
-		"aerospace system defense",
-		"agent",
-		"athlete",
-		"barbarian",
-		"belter",
-		"bureaucrat",
-		"colonist",
-		"diplomat",
-		"drifter",
-		"entertainer",
-		"hunter",
-		"marine",
-		"maritime system defense",
-		"mercenary",
-		"merchant",
-		"navy",
-		"noble",
-		"physician",
-		"pirate",
-		"rogue",
-		"scientist",
-		"scout",
-		"surface system defense",
-		"technician",
-	}
-}
-
 func newChar(r *rand.Rand) char {
-	firstService := randNthString(r, professions())
+	firstService := randCareer(r)
 	return char{
 		name:      fullName(r),
 		age:       18,
@@ -66,7 +37,7 @@ func newChar(r *rand.Rand) char {
 		in:        dn(r, 2),
 		ed:        dn(r, 2),
 		ss:        dn(r, 2),
-		career:    firstService,
+		careers:   []career{firstService},
 		homeworld: newPlanet(r, nil, nil),
 		events: []lifeEvent{
 			birthEvent{},
@@ -93,7 +64,7 @@ func (c char) String() string {
 	ret = append(ret, fmt.Sprintf("%s %X%X%X%X%X%X, from %s (%s), %d y.o., %s. %s",
 		c.name, c.st, c.dx, c.en, c.in, c.ed, c.ss,
 		c.homeworld.name, c.homeworld.uwp(),
-		c.age, c.career,
+		c.age, c.careers[0].name,
 		skillsList(c.skills)))
 	for _, e := range c.events {
 		ret = append(ret, fmt.Sprintf("Age %d: %s", e.Age(), e.Name()))

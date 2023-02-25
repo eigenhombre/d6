@@ -20,91 +20,86 @@ Generators for open variants of the original '70s D6 SF RPG.
     	worlds
     
     $ d6 chars
-    Hyun Iann 5475A6, from Kortney (E474343-5), 18 y.o., agent.
+    Rosario Niki 445494, from Elvina (D648662-5), 18 y.o., colonist.
     Age 0: born
     Age 18: majority reached
-    Age 18: attempt to join agent
-    Maurine Nicol 497948, from Refugia (ABFAA8A-D), 18 y.o., barbarian.
+    Age 18: attempted to begin career as a(n) colonist
+    Pearle Jovan 796477, from Ola (ABFA9BE-E), 18 y.o., colonist.
     Age 0: born
     Age 18: majority reached
-    Age 18: attempt to join barbarian
-    Nettie Ayana A6778A, from Kat (X312000-0), 18 y.o., physician.
+    Age 18: attempted to begin career as a(n) colonist
+    Irish Man Joye Chaya Isafredcarmin Hubert 3A4328, from Marion (X67549A-5), 18 y.o., athlete.
     Age 0: born
     Age 18: majority reached
-    Age 18: attempt to join physician
-    Floyd Sallie Fawn Regan Lan 979575, from Lorna (D88A68C-5), 18 y.o., entertainer.
+    Age 18: attempted to begin career as a(n) athlete
+    Demetrice Noelia 45A5AA, from Ika (AC8AACD-F), 18 y.o., belter.
     Age 0: born
     Age 18: majority reached
-    Age 18: attempt to join entertainer
-    Lanny Gordon Maddie 94A799, from Abbey (B9667CD-5), 18 y.o., maritime system defense.
+    Age 18: attempted to begin career as a(n) belter
+    Ean Beatrice Andr 8A348A, from Katia (B8B3788-8), 18 y.o., bureaucrat.
     Age 0: born
     Age 18: majority reached
-    Age 18: attempt to join maritime system defense
-    Rit Arr 48A476, from Maisha (B558986-6), 18 y.o., colonist.
+    Age 18: attempted to begin career as a(n) bureaucrat
+    Han Nororinmeli Estrella 865876, from Alfonso (B360812-B), 18 y.o., pirate.
     Age 0: born
     Age 18: majority reached
-    Age 18: attempt to join colonist
-    Yvonne 66A676, from Arolistimarc (CBC88EA-7), 18 y.o., technician.
+    Age 18: attempted to begin career as a(n) pirate
+    Isaias Line 997996, from Enn (E9A1487-8), 18 y.o., aerospace system defense.
     Age 0: born
     Age 18: majority reached
-    Age 18: attempt to join technician
-    Marietta Magnolia Annmel Kris 3C6448, from Risa (ABC78AA-D), 18 y.o., aerospace system defense.
+    Age 18: attempted to begin career as a(n) aerospace system defense
+    Leena Rafaela Ian 698959, from Jules (CAD869C-7), 18 y.o., agent.
     Age 0: born
     Age 18: majority reached
-    Age 18: attempt to join aerospace system defense
-    Ernaern 3458C7, from Nohemi (D63A455-B), 18 y.o., aerospace system defense.
+    Age 18: attempted to begin career as a(n) agent
+    Nikia Ursula 89A59B, from Staci (D8B1788-7), 18 y.o., drifter.
     Age 0: born
     Age 18: majority reached
-    Age 18: attempt to join aerospace system defense
-    Giovanna Tammy Harris Alfonzo Nnasie Imelda 3A4484, from Linnie (C669962-5), 18 y.o., marine.
+    Age 18: attempted to begin career as a(n) drifter
+    Rosiannshel Elyn 35688A, from Lashawna (B967A67-B), 18 y.o., drifter.
     Age 0: born
     Age 18: majority reached
-    Age 18: attempt to join marine
+    Age 18: attempted to begin career as a(n) drifter
     
     $ d6 worlds
-                 Shawana    0001 DAA87A9-7   Fl
-                  Jonnie    0004 X413000-0   Ba Ic
-                   Toney    0006 ACFAABA-F   Fl Hi Ht Wa
-                   Karol    0008 A847A56-E S Hi Ht In
-                 Wanetta    0101 E310322-7   Lo
-                  Dalene    0102 BAC57A7-8 S Fl
-                     Hel    0104 E555542-4   Ag Ga Lt Ni
-                   Grady    0106 BC9AAFE-9 A Hi In Wa
-               Ernestine    0109 D89A662-7 S Ni Wa
-                 Milissa    0201 B886A68-C   Hi Ht
-                    Joye    0202 C9A5985-8 S Fl Hi
-                  Aletha    0204 AA8AACC-B N Hi Wa
-                    Oren    0206 D77977B-5   Lt
-                Georhell    0207 E7545A7-6   Ag Ga Ni
-                 Octavia    0209 CAC7A54-C S Fl Hi Ht
-                    Nona    0301 D8B3542-7   Fl Ni
-                   Alina    0302 B746989-A   Hi In
-                 Bellama    0303 D788734-3   Ag Ga Lt Ri
-                    Cary    0308 X347000-0   Ba
-                  Margot    0400 X343532-5   Lt Ni Po
-                    Juli    0401 EB9677B-5   Ag Lt
-                      Na    0404 EBB48B7-7   Fl
-          Rielkatrinaela    0405 E453752-6   Po
-                   Alice    0408 CADA985-C   Fl Hi Ht Wa
-                  Corrin    0409 CAF99AC-7 S Fl Hi
-             Dientinlari    0502 E410487-8   Ni
-                  Catina    0503 AA5AA66-C   Hi Ht Wa
-                    Elke    0504 C8A2787-7   Fl
-                 Eugenio    0505 B884A79-9 P Hi
-                  Alanna    0508 B978A86-A N Hi In
-                     Nna    0509 BC97A74-B N Hi In
-                   Mabel    0602 B9C7A74-B N Fl Hi
-                  Derick    0604 A564A20-E   Hi Ht
-            Ritabritshaw    0605 ABB3AD9-C S Fl Hi Ht
-                 Nicfeli    0606 D310252-7 S Lo
-               Araondant    0607 D560695-5 P De Lt Ni Ri
-                  Anglea    0608 CBA88BA-8   Fl
-                  Sherly    0609 B535540-B S Ni
-                  Teisha    0700 BA68AB9-7   Hi
-                 Darlena    0701 B9B5979-A N Fl Hi
-                 Ambrose    0702 C428847-7   Ic
-             Arierrivern    0704 X300000-0   Ba Va
-                   Elene    0705 X535000-0   Ba
+                Savannah    0005 E422642-7   Ic Na Ni Po
+                  Prince    0006 E260510-5   De Lt Ni
+                    Rand    0007 AAB4972-9 N Fl Hi
+                   Robin    0101 D799865-5   Lt
+               Micheline    0102 CBA3679-7   Fl Ni
+                   Jayna    0105 D86A679-4 S Lt Ni Ri Wa
+                 Mohamed    0107 B74798A-8   Hi In
+                  Rianna    0108 C401788-7 S Ic Na Va
+                      Yi    0109 D897698-5   Ag Lt Ni
+                    Liza    0202 A896A85-B   Hi In
+                 Latisha    0205 CC8A9CB-A S Hi Wa
+                   Altha    0207 C777788-5   Ag Lt
+                 Tammara    0209 A56AA55-C N Hi Ht Wa
+                   Brain    0300 DBDA4B7-7 S Fl Ni Wa
+               Georgiana    0302 A676998-B S Hi In
+                   Wilda    0305 E878467-5   Lt Ni
+           Larlashwilerl    0306 CB9AA9B-A S Hi In Wa
+                    Lisa    0308 X536213-7   Lo
+                  Karima    0309 E8A02AC-7   De Lo
+                 Ustitha    0402 A999AB9-A   Hi In
+                  Arnold    0403 B553A62-8 A Hi Po
+                     Rol    0405 D201413-9 S Ic Ni Va
+                    Rand    0407 D463368-5   Lo Lt
+                  Dianne    0501 E785775-3   Ag Ga Lt Ri
+                 Lorrine    0503 C666773-7 S Ag Ga Ri
+                 Shanita    0504 B945A86-7 N Hi In
+                  Harlan    0506 C73778D-7 S
+                     Ria    0507 E400000-0   Ba Va
+                    Llen    0508 B869AAB-A N Hi
+                   Noemi    0509 B878ACB-8 N Hi In
+                Chiquita    0602 B638A34-B   Hi
+                   Clara    0603 B8669A8-B   Hi
+                   Loura    0604 A995A87-E N Hi Ht In
+                 Milagro    0608 B535920-8 S Hi
+                Sanjuana    0609 C96AAA8-C   Hi Ht Wa
+                 Dominga    0704 E785554-4   Ag Ga Lt Ni
+               Florencia    0705 D88A698-4 S Lt Ni Ri Wa
+                Ettealin    0706 BB6AAAF-A   Hi Wa
     
     
     
