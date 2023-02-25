@@ -20,65 +20,61 @@ Generators for open variants of the original '70s D6 SF RPG.
     	worlds
     
     $ d6 chars
-    Lavette Alen Hrikat Jean 753985, 18 y.o.
-    Bell Arisarc Chu Eldora 65256A, 18 y.o.
-    Lillie Hrisrri Camilla Ilona Err 898388, 18 y.o.
-    Land Gracie Warner Chan Mandie 73678A, 18 y.o.
-    Reva Sachiko Maudie Hallie Carlorilori 379A6B, 18 y.o.
-    Gracia Lani 744367, 18 y.o.
-    Madelaine Brad Marlo Adeline Nna 96ACC7, 18 y.o.
-    Essieri Inerita 3C67A9, 18 y.o.
-    Coral Hae Berneice 22A953, 18 y.o.
-    Lorene Helena B7A857, 18 y.o.
+    Letitia Mana A73AAB, from Tami (B795A9C-B), 18 y.o., Scientist.
+    Mitsuko Bern Rosaura Nestor Chan Jamie 565945, from Alessandra (XAA6676-7), 18 y.o., Aerospace System Defense.
+    Ali Brigid 8A876B, from Delcie (CAC6773-7), 18 y.o., Scientist.
+    Kayleen Dwight 74C778, from Nikita (E675366-7), 18 y.o., Hunter.
+    Idell Ossie Rell B74899, from Jong (D9A07AA-7), 18 y.o., Physician.
+    Giovanna Kristopher Katest 678587, from Adelaide (C564838-5), 18 y.o., Athlete.
+    Ill Gaynell A56B44, from Harl (X547000-0), 18 y.o., Scout.
+    Chi Tamisha Britni Debra Rodger 469699, from Missy (C452344-A), 18 y.o., Diplomat.
+    Maryalice Mellleros 654796, from Lli (X586530-0), 18 y.o., Surface System Defense.
+    Kar Marleen C77C88, from Ophelia (X9A1597-7), 18 y.o., Colonist.
     
     $ d6 worlds
-                  Yukiko    0001 C778864-8
-                   Bobby    0002 C765885-8 S Ga Ri
-                    Vida    0005 XA976DD-5   Ag Lt Ni
-                 Llenant    0007 D9A35A6-7 S Fl Ni
-                   Elden    0008 B77AA58-A A Hi In Wa
-                    Neil    0101 AB9AA79-F N Hi Ht In Wa
-                  Mollie    0107 B956853-A N Ga
-                  Ofelia    0108 BAF9A9B-D S Fl Hi Ht
-                   Jason    0109 C78857A-4   Ag Ga Lt Ni
-             Nnetnoralia    0200 E356320-6   Lo
-                      Ha    0201 D696433-5 S Lt Ni
-                  Gidget    0202 B8B7A45-D N Fl Hi Ht
-                 Merlene    0203 B75A837-C   Ht Wa
-                Kimberly    0204 E784697-3   Ag Ga Lt Ni Ri
-               Kassandra    0205 X303323-7   Ic Lo Va
-                 Lurline    0207 D546656-5   Ag Lt Ni
-                      Ai    0208 AAB2ADE-B N Fl Hi
-                    Gale    0300 X693230-5   Lo Lt
-             Alenindaman    0301 E657499-4   Ga Lt Ni
-                Leonarda    0302 CCEA9FB-9 G Fl Hi Wa
-                    Cami    0303 X87848C-5   Lt Ni
-                  Porsha    0304 X8D9250-7   Fl Lo
-                   Monty    0306 C8A78C9-7   Fl
-               Fredricka    0307 X330102-7   De Lo Po
-                Marybeth    0400 X428434-7   Ic Ni
-                   Dwain    0403 D854A8D-6 S Hi
-               Charlette    0405 C73A6AE-7   Ni Wa
-                     Ndr    0409 E54269C-5   Lt Ni Po
-                   Golda    0501 B6A767A-A S Fl Ni
-                    Gino    0502 BA7AA77-9 A Hi In Wa
-                 Aundrea    0504 C7B189B-7   Fl
-                    Beau    0505 B796720-5 A Ag Lt
-                    Aria    0506 C474665-7 P Ag Ni
-                  Marlen    0507 A985AA8-B N Hi
-               Jeannette    0508 D432620-7   Na Ni Po
-                     Ica    0600 DAA5857-7 S Fl
-                  Chante    0603 B779977-C N Hi Ht In
-                Josefine    0605 E564333-2   Lo Lt
-                 Carmelo    0606 B524486-8 A Ic Ni
-                     Lyn    0609 D9B299B-7 S Fl Hi
-                     Ria    0701 AAA6A8A-D N Fl Hi Ht
-                  Jammie    0702 D539220-7 S Lo
-                 Seymour    0703 X674313-5   Lo Lt
-                  Piedad    0706 B6679BB-A N Hi
-                     Ita    0707 E9A04EF-7   De Ni
-                   Brook    0708 C375455-8   Ni
-                Kimberly    0709 C98A8BD-A S Ri Wa
+                     Ore    0001 E666887-1   Ga Lt Ri
+                    Rico    0003 A877959-A   Hi In
+                    Rose    0004 B969AC9-8 A Hi
+                    Gaye    0005 C261834-6   Ri
+                     Ang    0007 X382355-1   Lo Lt
+                  Romana    0008 D612634-7 S Ic Na Ni
+                 Tamekia    0009 A898A83-C   Hi Ht In
+                Casimira    0102 B894AA9-9 A Hi In
+                    Cary    0104 B6828BA-9   Ri
+                 Mariana    0105 D665640-4 S Ag Ga Lt Ni Ri
+                   Nicol    0106 C664989-7 S Hi
+                     Hee    0108 X7C2169-7   Fl Lo
+                   Zella    0109 X32716A-7   Ic Lo
+                   Tasha    0200 B6A0975-9   De Hi
+                    Sher    0202 A99599C-A   Hi In
+                 Rosalva    0203 X430155-7   De Lo Po
+                     Lie    0204 E633152-7   Lo Po
+                   Aimee    0206 CC9AAB9-7   Hi In Wa
+                 Ashanti    0301 X776377-5   Lo Lt
+                    Bree    0303 E777876-5   Lt
+                   Heidy    0304 C75A549-B   Ni Wa
+                 Feliera    0306 E432626-7   Na Ni Po
+                Kathrine    0307 C676854-6
+                    Kali    0308 C9A9698-8 S Fl Ni
+                     Gay    0309 E663668-4   Lt Ni Ri
+                 Vannesa    0401 A796A36-D   Hi Ht In
+                     Mar    0404 AA98A87-B N Hi In
+                 Suellen    0408 D758353-6 S Lo
+                Aureadel    0409 B738A54-D   Hi Ht
+                   Daine    0505 X576000-0   Ba
+                   Trish    0506 BABAA77-F A Fl Hi Ht Wa
+                   Magen    0601 D9D8478-7 S Fl Ni
+                Chassidy    0603 X335000-0   Ba
+                 Jeanica    0605 A87889B-7
+                 Latisha    0606 B866A72-B   Hi
+                  Haydee    0607 B661769-A S Ri
+                Shirleen    0608 CCB9ACC-C S Fl Hi Ht
+                 Shaunta    0700 C96AA79-B   Hi Wa
+                 Jacinta    0703 C536643-8   Ni
+                 Melonie    0704 D56986A-5 S Ga Lt Ri
+                  Luetta    0705 E485600-6   Ag Ga Ni Ri
+                 Tynisha    0706 D7A5479-7 S Fl Ni
+               Stephanie    0707 X542333-5   Lo Lt Po
     
     
     

@@ -20,19 +20,15 @@ func nameList() []string {
 	return strings.Split(Names, "\n")
 }
 
-func tradName() string {
-	return randNth(nameList())
-}
-
-func randNth(list []string) string {
-	return list[randSrc().Intn(len(list))]
+func tradName(r *rand.Rand) string {
+	return randNthString(r, nameList())
 }
 
 func singleName(r *rand.Rand) string {
 	if r.Intn(4) == 0 {
 		return nGramName(r)
 	}
-	return tradName()
+	return tradName(r)
 }
 
 func stringListNgrams(list []string, n int) []string {
@@ -106,7 +102,7 @@ func nGramName(r *rand.Rand) string {
 	numgrams := r.Intn(r.Intn(4)+1) + 1
 	name := ""
 	for i := 0; i < numgrams; i++ {
-		name += randNth(topNgramsGlobal)
+		name += randNthString(r, topNgramsGlobal)
 	}
 	return name
 }

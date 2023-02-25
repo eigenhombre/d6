@@ -5,6 +5,10 @@ import (
 	"time"
 )
 
+func randNthString(r *rand.Rand, s []string) string {
+	return s[r.Intn(len(s))]
+}
+
 func randSrc() *rand.Rand {
 	return rand.New(rand.NewSource(time.Now().UnixNano()))
 }

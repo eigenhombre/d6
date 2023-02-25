@@ -8,8 +8,8 @@ import (
 
 type planet struct {
 	name       string
-	sectorX    int
-	sectorY    int
+	sectorX    *int
+	sectorY    *int
 	size       int
 	atmo       int
 	hydro      int
@@ -22,7 +22,7 @@ type planet struct {
 	baseCode   rune
 }
 
-func newPlanet(r *rand.Rand, sectorX, sectorY int) planet {
+func newPlanet(r *rand.Rand, sectorX, sectorY *int) planet {
 	size := dn(r, 2)
 	var atmo int
 	if size == 0 {
@@ -280,11 +280,8 @@ func calculateTradeCodes(size, atmo, hydro, pop, gov, law, tl int) []string {
 	return ret
 }
 
-func (p planet) String() string {
-	return fmt.Sprintf("%20s    %02d%02d %c%X%X%X%X%X%X-%X %c %s",
-		p.name,
-		p.sectorX,
-		p.sectorY,
+func (p planet) uwp() string {
+	return fmt.Sprintf("%c%X%X%X%X%X%X-%X",
 		p.starport,
 		p.size,
 		p.atmo,
@@ -293,6 +290,20 @@ func (p planet) String() string {
 		p.gov,
 		p.law,
 		p.tl,
+	)
+}
+
+func (p planet) String() string {
+	var xy string
+	if p.sectorX == nil || p.sectorY == nil {
+		xy = "...."
+	} else {
+		xy = fmt.Sprintf("%02d%02d", *p.sectorX, *p.sectorY)
+	}
+	return fmt.Sprintf("%20s    %0s %s %c %s",
+		p.name,
+		xy,
+		p.uwp(),
 		p.baseCode,
 		strings.Join(p.tradeCodes, " "),
 	)
@@ -300,10 +311,10 @@ func (p planet) String() string {
 
 func generateSubsector(r *rand.Rand) string {
 	ret := []string{}
-	for sectorX := 0; sectorX < 8; sectorX++ {
-		for sectorY := 0; sectorY < 10; sectorY++ {
+	for x := 0; x < 8; x++ {
+		for y := 0; y < 10; y++ {
 			if r.Intn(2) == 0 {
-				ret = append(ret, newPlanet(r, sectorX, sectorY).String())
+				ret = append(ret, newPlanet(r, &x, &y).String())
 			}
 		}
 	}
