@@ -2,7 +2,7 @@
 
 PROG=d6
 
-all: ${PROG}
+all: ${PROG} doc
 
 ${PROG}: *.go go.mod
 	go build .
